@@ -72,12 +72,14 @@ or
 
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
+![Screenshot 2024-11-11 141100](https://github.com/user-attachments/assets/594e5878-8a62-48d2-af21-2332b28a9ddc)
 
 ### Fig 3: Setting Multi-step simulation
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure 
 
 Click the cds.lib file and save the file by clicking on Save option 
+![Screenshot 2024-11-11 141413](https://github.com/user-attachments/assets/0a777467-9524-4c75-a1dc-0f6ae05e251a)
 
 ### Fig 4:cds.lib file Creation
 
@@ -100,6 +102,7 @@ Left side you can see the HDL files. Right side of the window has worklib and sn
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation .
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
+![Screenshot 2024-11-11 141100](https://github.com/user-attachments/assets/583f393e-e8cc-4088-882a-d30e81b4f7b0)
 
 ### Fig 6: Nclaunch Window
 
@@ -124,6 +127,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
+![Screenshot 2024-11-11 141743](https://github.com/user-attachments/assets/ea6cbf8b-f29c-44fa-a473-3aeae192f4d7)
 
 ### Fig 7: Compiled database in worklib
 
@@ -158,6 +162,7 @@ Outputs: Elaborate database updated in mapped library if successful, generates r
 5.It also establishes net connectivity and prepares all of this for simulation
 
 After elaboration the file will come under snapshot. Select the test bench and simulate it.
+![Screenshot 2024-11-11 142112](https://github.com/user-attachments/assets/dcc1429c-c201-4244-94f2-2997913b1f77)
 
 ## Fig 8: Elaboration Launch Option
 
@@ -172,10 +177,13 @@ Outputs: Simulation log file, waveforms for debugging
 Simulation allow to dump design and test bench signals into a waveform 
 
 Steps for simulation – Run the simulation command with simulator options
+![Screenshot 2024-11-11 143828](https://github.com/user-attachments/assets/34186528-e870-45c0-8e31-c1f098462ee8)
 
 ## Fig 9: Design Browser window for simulation
+![Screenshot 2024-11-11 143952](https://github.com/user-attachments/assets/5aa42a58-f7ca-4caf-a836-49da54865823)
 
 ## Fig 10:Simulation Waveform Window
+![Screenshot 2024-11-11 144050](https://github.com/user-attachments/assets/746e63fa-d018-4ed7-8d88-686490d34c67)
 
 ## Fig 11:Simulation Waveform Window
 
